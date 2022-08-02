@@ -1,0 +1,20 @@
+We group 3 are going to finish a project called Malmo which is related to Minecraft.The main purpose of our project is to develop an agent through machine learning that can play Minecraft automatically to perfectly achieve the goals in this game. To what extent we could achieve the goals can still be determined.And of course we will try our best. And the reason why we choose to research on this project is that Minecraft is an abstraction of the real world, and the game remains the key points such moving, interacting with the environment and so on. Moreover Minecraft has removed the cumbersome details so that we can train the agents conveniently better get to know the essence of machine learning. At the same time, the training results can be visually displayed through Minecraft clearly.
+
+Our ultimate plan is to be an agent based on reinforcement learning, which can complete specified tasks, such as walking through mazes, collecting, and simple interactions with the environment and so on.
+
+Agent consists of three parts:
+1.Observe the environment. Our agent’s pecific methods of observing the environment include observing the various types of surrounding squares and according to their own state (safety, injury, death, etc.) after the actions ,agents will build environmental databases through its observations.
+
+2. The action logic.Agent's actions are composed of separate actions. The action logic is mainly a key-value pair of square-value or action-value, and the agent will choose the next step based on value size in consideration of the possible action options.
+
+3.Through learning after completing some actions, the agent will update the action logic based on the scores obtained in this process.
+
+Specific situations include:
+1. Walking through the maze.There are traps in the maze, and agents will repeatedly try to find the path to the end. We plan to start with the two-dimensional maze.
+If it goes well, we may try a three-dimensional situation.
+
+2. The collections.Agent will collect the squares in the environment and get a score based on the type and number of squares obtained. The agent will try repeatedly to find the highest possible score.
+
+If it goes well, we may try more complex tasks.
+
+Basically these are our ultimate plan and the process we are in.
